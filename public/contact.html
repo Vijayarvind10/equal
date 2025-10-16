@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Contact - Equal Voices Collective</title>
+  <meta name="description" content="Fast, kind replies. Equal Voices Collective responds within four hours and never shares your email.">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body class="page-contact">
+  <header class="site-header" data-page="contact">
+    <div class="container">
+      <a class="brand" href="index.html">Equal Voices Collective</a>
+      <span class="tagline-small">learning, story, and justice across caste and gender</span>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="sr-only">Toggle navigation</span>
+        Menu
+      </button>
+      <nav id="site-nav" class="site-nav" data-collapsed="false">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="resources.html">Resources</a>
+        <a href="stories.html">Stories</a>
+        <a href="workshops.html">Workshops</a>
+        <a href="impact.html">Impact</a>
+        <a href="get-involved.html">Get Involved</a>
+        <a href="contact.html">Contact</a>
+        <a href="privacy.html">Privacy</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <section class="page-hero surface">
+        <div>
+          <span class="badge">Get in touch</span>
+          <h1>Fast, kind replies. Always within four hours.</h1>
+          <p class="lead">Equal Voices Collective does not sell or share addresses. Use the form or email directly - both routes land in the same inbox.</p>
+        </div>
+      </section>
+
+      <section class="two-col">
+        <form class="surface" action="mailto:hello@equalvoicescollective.org" method="post" enctype="text/plain">
+          <label for="contact-name">Your name</label>
+          <input id="contact-name" name="name" autocomplete="name">
+
+          <label for="contact-email">Email</label>
+          <input id="contact-email" name="email" type="email" autocomplete="email" required>
+
+          <label for="contact-topic">Topic</label>
+          <select id="contact-topic" name="topic" required>
+            <option value="">Select one</option>
+            <option value="course-support">Course support</option>
+            <option value="workshop">Workshop request</option>
+            <option value="resources">Resources question</option>
+            <option value="stories">Stories + archive</option>
+            <option value="other">Something else</option>
+          </select>
+
+          <label for="contact-message">Message</label>
+          <textarea id="contact-message" name="message" rows="6" required placeholder="Share context, goals, and timing."></textarea>
+
+          <p class="form-help">We reply with next steps, timelines, and any materials requested.</p>
+          <button class="btn primary" type="submit">Send message</button>
+        </form>
+
+        <aside class="surface">
+          <h2>Prefer direct email?</h2>
+          <p>Email <a href="mailto:hello@equalvoicescollective.org">hello@equalvoicescollective.org</a> or schedule a 20-minute intro call.</p>
+          <h3 class="h4">Office hours</h3>
+          <ul class="list-reset">
+            <li>Monday - 1:00 - 3:00 PM PT</li>
+            <li>Wednesday - 9:00 - 11:00 AM PT</li>
+          </ul>
+          <a class="btn" href="https://cal.com/">Book a call</a>
+          <p class="muted">We keep a private log of requests to ensure timely follow-up and deletion on demand.</p>
+        </aside>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="resources.html">Resources</a>
+        <a href="impact.html">Impact</a>
+        <a href="privacy.html">Privacy</a>
+      </nav>
+      <p>built with care. privacy and consent come first.</p>
+      <small>© <span id="year">2024</span> Equal Voices Collective.</small>
+    </div>
+  </footer>
+</body>
+</html>
