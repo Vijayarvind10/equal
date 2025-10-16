@@ -1,19 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@500;700&family=Source+Sans+3:wght@400;500;600&display=swap');
 
 :root{
-  --bg:#f7f2ed;
+  --bg:#f3f7fb;
   --surface:#ffffff;
-  --soft:#f0e7df;
-  --line:rgba(58,48,43,.12);
-  --accent:#a3654c;
-  --accent-dark:#7a4632;
-  --accent-light:#f3d6c6;
-  --text:#2f2722;
-  --muted:#5b5048;
-  --muted-light:#8a7d74;
+  --soft:#e7f0fb;
+  --line:rgba(24,58,95,.12);
+  --accent:#2d7dd2;
+  --accent-dark:#1c5aa6;
+  --accent-light:#d2e7ff;
+  --text:#1f2a36;
+  --muted:#4b5a68;
+  --muted-light:#6c7a88;
   --max-width:960px;
   --radius:14px;
-  --shadow:0 35px 60px -25px rgba(68,51,40,.25);
+  --shadow:0 35px 60px -25px rgba(24,58,95,.2);
   color-scheme:light;
 }
 
@@ -24,7 +24,7 @@ body{
   font-family:'Source Sans 3', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif;
   line-height:1.6;
   color:var(--text);
-  background:linear-gradient(180deg,#fefbf8 0%,var(--bg) 50%,#f5efe9 100%);
+  background:linear-gradient(180deg,#f8fbff 0%,var(--bg) 50%,#eef5fd 100%);
 }
 
 img{max-width:100%; display:block}
@@ -42,7 +42,7 @@ a:hover,a:focus{color:var(--accent-dark); text-decoration:underline}
   position:sticky;
   top:0;
   z-index:20;
-  background:rgba(255,253,250,.92);
+  background:rgba(248,251,255,.92);
   backdrop-filter:blur(20px);
   border-bottom:1px solid var(--line);
 }
@@ -187,7 +187,7 @@ a:hover,a:focus{color:var(--accent-dark); text-decoration:underline}
   background:var(--accent);
   color:#fff;
   border-color:var(--accent);
-  box-shadow:0 18px 30px -15px rgba(163,101,76,.55);
+  box-shadow:0 18px 30px -15px rgba(45,125,210,.4);
 }
 
 .btn.primary:hover,
@@ -222,8 +222,8 @@ a:hover,a:focus{color:var(--accent-dark); text-decoration:underline}
   padding:1.4rem;
   background:var(--surface);
   border-radius:var(--radius);
-  border:1px solid var(--line);
-  box-shadow:0 20px 35px -28px rgba(45,35,29,.35);
+  border:1px solid rgba(45,125,210,.12);
+  box-shadow:0 20px 35px -28px rgba(24,58,95,.22);
 }
 
 .trust-card h3{
@@ -256,8 +256,8 @@ a:hover,a:focus{color:var(--accent-dark); text-decoration:underline}
   padding:1.5rem;
   background:var(--surface);
   border-radius:var(--radius);
-  border:1px solid var(--line);
-  box-shadow:0 20px 35px -28px rgba(45,35,29,.32);
+  border:1px solid rgba(45,125,210,.12);
+  box-shadow:0 20px 35px -28px rgba(24,58,95,.22);
 }
 
 .card h4{
@@ -281,7 +281,7 @@ a:hover,a:focus{color:var(--accent-dark); text-decoration:underline}
   background:var(--accent-light);
   color:var(--accent-dark);
   font-size:.85rem;
-  border:1px solid rgba(163,101,76,.35);
+  border:1px solid rgba(45,125,210,.3);
 }
 
 .metric-grid{
@@ -306,7 +306,7 @@ a:hover,a:focus{color:var(--accent-dark); text-decoration:underline}
   padding:1.75rem;
   background:var(--accent-light);
   border-radius:var(--radius);
-  border:1px solid rgba(163,101,76,.3);
+  border:1px solid rgba(45,125,210,.3);
   font-style:italic;
 }
 
@@ -503,7 +503,7 @@ legend{
 .site-footer{
   margin-top:clamp(3rem,6vw,5rem);
   border-top:1px solid var(--line);
-  background:#fffdf9;
+  background:#f8fbff;
   color:var(--muted);
 }
 
@@ -533,8 +533,8 @@ legend{
   padding:1.5rem;
   border-radius:var(--radius);
   background:var(--surface);
-  border:1px solid var(--line);
-  box-shadow:0 18px 35px -30px rgba(44,36,30,.35);
+  border:1px solid rgba(45,125,210,.12);
+  box-shadow:0 18px 35px -30px rgba(24,58,95,.22);
 }
 
 .impact-card h3{

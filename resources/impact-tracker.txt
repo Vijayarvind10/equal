@@ -1,0 +1,15 @@
+Impact Tracker Spreadsheet Guide
+
+PURPOSE
+Create consistent reporting across circuits and partners.
+
+TABS INCLUDED
+Roster, Requests, Visits, Hours, Stories, Dashboard.
+
+HOW TO USE
+Log each request with status updates.
+Record volunteer hours weekly.
+Add quotes and wins to the Stories tab for monthly newsletters.
+
+REPORTS
+Export a PDF summary for partners in under five minutes.

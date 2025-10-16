@@ -3,16 +3,16 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Stories - Equal Voices Collective</title>
-  <meta name="description" content="A gentle, opt-in archive of oral histories and written reflections with clear consent and privacy choices.">
+  <title>Stories - NeighborLift Network</title>
+  <meta name="description" content="Share and explore NeighborLift volunteer stories, with clear consent choices and opt-in archives.">
   <link rel="stylesheet" href="styles.css">
   <script defer src="script.js"></script>
 </head>
 <body class="page-stories">
   <header class="site-header" data-page="stories">
     <div class="container">
-      <a class="brand" href="index.html">Equal Voices Collective</a>
-      <span class="tagline-small">learning, story, and justice across caste and gender</span>
+      <a class="brand" href="index.html">NeighborLift Network</a>
+      <span class="tagline-small">volunteer power for everyday care</span>
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
         <span class="sr-only">Toggle navigation</span>
         Menu
@@ -35,54 +35,54 @@
     <div class="container">
       <section class="page-hero surface">
         <div>
-          <span class="badge">Archive</span>
-          <h1>Stories with consent at the center</h1>
-          <p class="lead">Community members choose how their stories live here. Every submission is logged with privacy preferences, transcription notes, and a path to withdraw.</p>
+          <span class="badge">Story hub</span>
+          <h1>Moments when a helping hand made the difference</h1>
+          <p class="lead">NeighborLift stories show how fast, coordinated volunteer teams keep neighbors steady. Share your circuit wins, hurdles, and lessons so others can build on them.</p>
         </div>
-        <p class="muted">Consent note: you can change your mind at any time. Send a message and we will remove your story. We keep a private log to make sure we honor requests quickly and completely.</p>
+        <p class="muted">You can request edits or removal at any time. Email <a href="mailto:stories@neighborlift.org">stories@neighborlift.org</a> and we will confirm within 24 hours.</p>
       </section>
 
       <section id="submit">
         <div class="section-heading">
           <span>01</span>
-          <h2>Record or share a story</h2>
+          <h2>Share your NeighborLift story</h2>
         </div>
-        <form id="story-form" class="surface" method="post" action="mailto:hello@equalvoicescollective.org" enctype="text/plain">
+        <form id="story-form" class="surface" method="post" action="mailto:stories@neighborlift.org" enctype="text/plain">
           <label for="story-title">Story title</label>
           <input id="story-title" name="title" required>
 
           <label for="story-name">Your name (optional)</label>
           <input id="story-name" name="author" placeholder="Leave blank if you prefer">
 
-          <label for="story-email">Contact email (optional)</label>
-          <input id="story-email" name="email" type="email" placeholder="Only used to confirm consent choices">
+          <label for="story-role">Your role</label>
+          <input id="story-role" name="role" placeholder="Example: circuit lead, volunteer buddy, resident">
+
+          <label for="story-email">Contact email</label>
+          <input id="story-email" name="email" type="email" required placeholder="Used only to confirm consent choices">
 
           <label for="story-text">Story text or key points</label>
-          <textarea id="story-text" name="story" rows="6" required placeholder="Tell us what happened, what it felt like, or what you want others to learn."></textarea>
+          <textarea id="story-text" name="story" rows="6" required placeholder="Tell us what happened, what you learned, and tips for other teams."></textarea>
 
-          <label for="story-share">How can we share this story?</label>
+          <label for="story-share">How should we share this?</label>
           <select id="story-share" name="share" required>
             <option value="">Select one</option>
-            <option value="text-anonymous">Text only, anonymous</option>
-            <option value="text-name">Text with my name</option>
-            <option value="audio-anonymous">Audio clip, anonymous</option>
-            <option value="audio-name">Audio clip with my name</option>
-            <option value="private-archive">Keep private (for archive care only)</option>
+            <option value="text-anonymous">Publish text anonymously</option>
+            <option value="text-name">Publish text with my name and circuit</option>
+            <option value="audio-anonymous">Publish audio clip anonymously</option>
+            <option value="audio-name">Publish audio clip with my name and circuit</option>
+            <option value="private-archive">Keep on file for coordinators only</option>
           </select>
-
-          <label for="glossary-terms">Glossary words we should include</label>
-          <input id="glossary-terms" name="glossary" placeholder="Optional - add terms, names, or translations">
 
           <fieldset class="surface">
             <legend>Consent confirmation</legend>
-            <p class="muted-light">Tick the box below to confirm that you understand the archive rules and your ability to withdraw.</p>
+            <p class="muted-light">Tick the box below to confirm you approve the sharing option selected above. You can change it later.</p>
             <label class="checkbox-label" for="story-consent">
               <input type="checkbox" id="story-consent" name="consent" required>
-              <span>I consent to the story being stored under the choices I selected above.</span>
+              <span>I consent to NeighborLift storing this story under the sharing option I selected.</span>
             </label>
           </fieldset>
 
-          <p class="form-help">Need to make changes later? Email <a href="mailto:hello@equalvoicescollective.org">hello@equalvoicescollective.org</a> with the subject line "Withdraw my story."</p>
+          <p class="form-help">Need to change anything later? Email <a href="mailto:stories@neighborlift.org">stories@neighborlift.org</a> with the subject line "Update my story."</p>
           <button class="btn primary" type="submit">Submit story</button>
         </form>
       </section>
@@ -90,25 +90,29 @@
       <section>
         <div class="section-heading">
           <span>02</span>
-          <h2>Listen and read</h2>
+          <h2>Field notes from active circuits</h2>
         </div>
         <div class="cards">
           <article class="card">
-            <h3>Cooking together during exam week</h3>
-            <p class="muted-light">Two students, recorded anonymously - 2 minute clip - glossary: <a href="resources/discussion-rules.pdf">collective care</a></p>
-            <p>"We decided to cook food from home and talk through our families' expectations. It helped to hear that slowing down is an act of care."</p>
+            <h3>Errand crew at Maple Grove</h3>
+            <p class="muted-light">Volunteer lead, Maple Grove Towers</p>
+            <p>"Reminder texts from the toolkit meant no deliveries missed. Residents started leaving thank-you notes on the daybook, which we now read out during debrief."</p>
             <div class="link-rows">
-              <a class="btn" href="stories/cooking-together-transcript.txt">Read transcript</a>
-              <a class="btn" href="contact.html">Request audio access</a>
+              <a class="btn" href="stories/maple-grove-daybook.txt">Read the debrief log</a>
             </div>
           </article>
           <article class="card">
-            <h3>Holding space after a difficult reading</h3>
-            <p class="muted-light">Written reflection - shared with name - glossary: <a href="resources/intersectionality.pdf">intersectionality</a></p>
-            <p>"The ground rules let us pause before we replied. I finally had a script for describing harm without calling anyone out in front of the class."</p>
+            <h3>Phone buddies break the ice</h3>
+            <p class="muted-light">Wellness caller, Riverbend Circuit</p>
+            <p>"The call sheet helped me ask about medicine refills without feeling invasive. When a member mentioned dizziness, the escalation list got a nurse on the line within minutes."</p>
             <div class="link-rows">
-              <a class="btn" href="stories/holding-space.txt">Read reflection</a>
+              <a class="btn" href="stories/riverbend-call-sheet.txt">View call summary</a>
             </div>
+          </article>
+          <article class="card">
+            <h3>Pop-up repair day</h3>
+            <p class="muted-light">Resident, East Ridge Towers</p>
+            <p>"Volunteers fixed two loose rails and scheduled follow-up with building management. The impact tracker sheet made it easy to show the work order number and photos."</p>
           </article>
         </div>
       </section>
@@ -116,16 +120,16 @@
       <section>
         <div class="section-heading">
           <span>03</span>
-          <h2>Curation rules</h2>
+          <h2>Story guidelines</h2>
         </div>
         <div class="surface">
           <ul class="list-reset">
-            <li>your story belongs to you.</li>
-            <li>consent can be withdrawn without question.</li>
-            <li>no identifying details without clear permission.</li>
-            <li>we use simple, careful language and provide context notes.</li>
+            <li>Your story belongs to you. We only edit for clarity or safety and always send a draft before posting.</li>
+            <li>You can withdraw or anonymize at any time.</li>
+            <li>No identifying details about residents without explicit permission.</li>
+            <li>Focus on what others can learn: tools used, timing, and tips for future circuits.</li>
           </ul>
-          <p class="muted">We log every submission, update, and deletion request so we can honor changes quickly.</p>
+          <p class="muted">Questions? Email <a href="mailto:stories@neighborlift.org">stories@neighborlift.org</a> or call the support desk listed on the contact page.</p>
         </div>
       </section>
     </div>
@@ -140,8 +144,8 @@
         <a href="privacy.html">Privacy</a>
         <a href="contact.html">Contact</a>
       </nav>
-      <p>built with care. privacy and consent come first.</p>
-      <small>© <span id="year">2024</span> Equal Voices Collective.</small>
+      <p>Built with neighbors in mind. Safety and dignity come first.</p>
+      <small>© <span id="year">2024</span> NeighborLift Network.</small>
     </div>
   </footer>
 </body>

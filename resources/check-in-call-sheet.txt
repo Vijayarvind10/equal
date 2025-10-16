@@ -1,0 +1,17 @@
+Check-in Call Sheet
+
+60-SECOND OVERVIEW
+A script for daily or weekly phone calls that balances warmth with safety checks.
+
+BEFORE THE CALL
+Review the daybook for notes, recent visits, and flagged follow ups.
+Confirm you have the escalation list nearby.
+
+CALL FLOW
+Warm welcome and confirm time is good.
+Wellbeing questions: sleep, meals, medications, mobility.
+Needs check: groceries, repairs, appointments, paperwork.
+Wrap with next steps and gratitude.
+
+ESCALATION CUES
+Unusual behavior, missed medication, falls, or no answer after two attempts.

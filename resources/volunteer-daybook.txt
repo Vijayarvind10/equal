@@ -1,0 +1,14 @@
+Volunteer Daybook
+
+PURPOSE
+Track every visit, call, or errand in one place for easy reporting.
+
+COLUMNS
+Date and time, volunteer names, resident, task, supplies, mileage, notes, follow up, status.
+
+USAGE TIPS
+Color code by task type such as meals, transport, check in.
+Add links to receipts or photos when sharing digitally.
+
+WEEKLY REVIEW
+Summarize wins, blockers, and escalations in the coordinator briefing.

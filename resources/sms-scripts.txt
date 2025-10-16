@@ -1,0 +1,10 @@
+Message Templates (SMS and WhatsApp)
+
+OVERVIEW
+Short scripts that keep communication warm and clear.
+
+CATEGORIES
+Shift reminder, thank you, new request alert, resident update, follow up nudge.
+
+TIP
+Personalize with resident initials only.
